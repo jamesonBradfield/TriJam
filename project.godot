@@ -14,6 +14,10 @@ config/name="TriJam"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
 
+[dotnet]
+
+project/assembly_name="TriJam"
+
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/gdUnit4/plugin.cfg", "res://addons/gkanban/plugin.cfg", "res://addons/timer/plugin.cfg")
