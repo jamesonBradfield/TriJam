@@ -14,10 +14,16 @@ config/name="TriJam"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+Audio="*res://addons/easy_audio/audio.gd"
+Music="*res://addons/easy_audio/music.gd"
+LevelManager="*res://Scripts/level_manager.gd"
+
 [dotnet]
 
 project/assembly_name="TriJam"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/gdUnit4/plugin.cfg", "res://addons/gkanban/plugin.cfg", "res://addons/timer/plugin.cfg")
+enabled=PackedStringArray("res://addons/easy_audio/plugin.cfg", "res://addons/gdUnit4/plugin.cfg", "res://addons/gkanban/plugin.cfg", "res://addons/timer/plugin.cfg")
